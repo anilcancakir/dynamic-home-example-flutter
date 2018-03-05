@@ -1,8 +1,3 @@
-# app
+# How to use dynamic home page in Flutter?
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+[https://medium.com/@anilcan/how-to-use-dynamic-home-page-in-flutter-83080da07012](https://medium.com/@anilcan/how-to-use-dynamic-home-page-in-flutter-83080da07012)
