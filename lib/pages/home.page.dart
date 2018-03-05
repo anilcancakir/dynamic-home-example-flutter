@@ -1,3 +1,4 @@
+import 'package:app/main.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -19,7 +20,9 @@ class HomePage extends StatelessWidget {
               'Logout'
             ),
             onPressed: () {
-              Navigator.of(context).pushReplacementNamed('/login');
+              appAuth.logout().then(
+                  (_) => Navigator.of(context).pushReplacementNamed('/login')
+              );
             }
           )
         ],

@@ -15,7 +15,7 @@ class AuthService {
   // Logout
   Future<void> logout() async {
     // Simulate a future for response after 1 second.
-    return await new Future<bool>.delayed(
+    return await new Future<void>.delayed(
       new Duration(
         seconds: 1
       )
